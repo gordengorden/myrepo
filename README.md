@@ -42,3 +42,10 @@ This will build the `asr-api` service from the `./asr` directory using the provi
 
 ## Package Installation
 Packages used for the notebooks are found in environment.yml
+
+## Load Model
+For loading wav2vec2-large-960h-cv, you can load using
+```python
+model = Wav2Vec2ForCTC.from_pretrained("gordengorden/wav2vec2-large-960h-cv",)
+processor = Wav2Vec2Processor.from_pretrained("gordengorden/wav2vec2-large-960h-cv")
+```
