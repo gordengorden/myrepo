@@ -40,6 +40,8 @@ This will build the `asr-api` service from the `./asr` directory using the provi
 
 # ASR Train
 
+cv-train-2a was ran on Google Colab for compute, some file paths might need to be changed to run from this root
+
 ## Package Installation
 Packages used for the notebooks are found in environment.yml
 
