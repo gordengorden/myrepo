@@ -198,8 +198,8 @@ cython_debug/
 
 # Data folders
 data/
-datasets/
 *.mp3
 *.wav
-*.parquet
-*.csv
+
+#ignore safetensors
+*.safetensors

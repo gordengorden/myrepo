@@ -1,0 +1,11 @@
+services:
+  asr-api:
+    build:
+      context: .
+      dockerfile: asr/Dockerfile
+    container_name: asr-api
+    restart: unless-stopped
+    init: true
+    ports:
+      - "8001:8001"  # Exposed by Dockerfile
+
